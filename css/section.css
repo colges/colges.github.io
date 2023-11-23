@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+
+
+section{
+    display: flex;
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: #F08080;
+    font-size: 50px;
+}
+
+#Latest{
+    background: var(--white);
+}
+#About,#Contact{
+    background: var(--whitevar1);
+}
+#Category,#Feedback{
+    background: var(--whitevar2);
+}
+
+

@@ -1,0 +1,23 @@
+section#Home {
+
+    background-color: #000;
+    background-image: radial-gradient(circle at top right, rgba(139,0,0, 0.63), transparent),
+    radial-gradient(circle at 20% 80%, rgba(220,20,60, 0.40), transparent);
+}
+section#Home.canvas {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+section#Home span{
+    z-index: 0;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+}
+
+section#Home span.word {
+    position: relative;
+    text-align: center;
+}
