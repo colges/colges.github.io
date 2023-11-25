@@ -2,26 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
 
 
-/* Reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: var(--white);
-    font-family: "Poppins", sans-serif;
-}
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
-}
+
+
 
 /* Header */
 .header{
-    z-index: 1;
+    /* z-index: 1; */
     background-color: var(--darkred);
     box-shadow: 1px 1px 5px 0px var(--red);
     position: sticky;

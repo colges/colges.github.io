@@ -5,8 +5,9 @@
     list-style: none;
     box-sizing: border-box;
 }
+
 body{
-    font-family: montserrat;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -18,7 +19,7 @@ section{
     align-items: center;
     justify-content: center;
     color: #F08080;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 #Latest{
@@ -30,5 +31,6 @@ section{
 #Category,#Feedback{
     background: var(--whitevar2);
 }
+
 
 

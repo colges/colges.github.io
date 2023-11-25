@@ -1,4 +1,4 @@
-var words = ['EN INFORMATIQUE','ET ELECTRONIQUE*'],
+var words = ['EN INFORMATIQUE','ET ÉLECTRONIQUE*'],
     part,
     i = 0,
     offset = 0,
