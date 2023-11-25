@@ -12,14 +12,15 @@ body{
 
 
 section{
-    display: flex;
+   /* display: flex; */
+    z-index: 0;
     height: calc(100vh - 80px);
     width: 100%;
     background-size: cover;
     align-items: center;
     justify-content: center;
     color: #F08080;
-    font-size: 30px;
+    font-size: 180%;
 }
 
 #Latest{
