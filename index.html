@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="css/Home.css">
     <link rel="stylesheet" href="css/presentation.css">
 
+    <link rel="stylesheet" href="css/projet.css">
+
+    <link rel="stylesheet" href="css/experience.css">
+
    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
     <script  src="js/home%20typing%20effect.js"></script> -->
 
@@ -51,7 +55,7 @@
        <script src="js/background.js"></script>
     </section>
     <section id="About">
-        <h2>Présentation</h2>
+        <div id="presentation">Présentation</div>
 
         <img src="photo_profile.jpg" alt="photo_profile"/>
       <p>
@@ -63,9 +67,148 @@
       </p>
 
     </section>
-    <section id="Projet">Projet</section>
+
+
+    <section id="Projet">
+        <div id="projet">Projet réalisé</div>
+        <div class="projet-container" id="projetContainer">
+            <!-- La liste de projets sera affichée ici -->
+        </div>
+
+        <script src="js/projet.js" defer></script>
+    </section>
+
+
     <section id="Competence">Compétence</section>
-    <section id="Experience">Expérience</section>
+
+
+
+    <section id="Experience">
+
+        <!-- partial:index.partial.html -->
+        <div class="ag-timeline_tagline">Mon expérience</div>
+
+            <section class="ag-section">
+                <div class="ag-format-container">
+                    <div class="js-timeline ag-timeline">
+                        <div class="js-timeline_line ag-timeline_line">
+                            <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+                        </div>
+                        <div class="ag-timeline_list">
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2023</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Prépa intégrée ISEN Rennes</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeALI6uPGfGyjBV0yt-5WwOHO6hNCmGN8wfjEBVOCqbdpCqnbOrfCN7rSAgA7HoSGQEhw&usqp=CAU" class="ag-timeline-card_img" width="640" height="360" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Prépa intégrée ISEN Rennes</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Lorem ipsum
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Bénevole ADMR</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2022</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="https://upload.wikimedia.org/wikipedia/fr/3/37/ADMR_quadri_.jpg" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Season 6</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Vivamus elementum
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2022</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Préparateur commande a broceliande</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNbghbC9SHClp0b34ezwcmgDlU80YlkuA1upQhHW9fF7Xddd8KBc99JJq7pD3GSYMdn-s&usqp=CAU" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Season 55</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Donec pede
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Baccalauréat scientifique</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2021</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9ousdGdQkotmvWmVvvwZjPYlVXu9ZIzZ-ZR-FhHchuixY9E21IqvxJ_MedxnzL5iOtY&usqp=CAU" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Season 4</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Nullam dictum
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+            </section>
+
+        <!-- partial -->
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script  src="js/experience.js"></script>
+
+    </section>
     <section id="Contact">Me contacter ...</section>
 </body>
 

@@ -11,9 +11,9 @@ body{
 }
 
 
-section{
+section #he, #Home, #About ,#Projet, #Competence ,#Contact{
    /* display: flex; */
-    z-index: 0;
+   /* z-index: 0; */
     height: calc(100vh - 80px);
     width: 100%;
     background-size: cover;
