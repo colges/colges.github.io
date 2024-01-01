@@ -323,7 +323,7 @@ img {
 
   .ag-timeline-card_img {
     height: auto;
-    width: auto;
+   /* width: auto;*/
   }
 }
 
