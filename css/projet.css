@@ -9,11 +9,13 @@ section#Projet #projet{
 
 .projet-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(4, 1fr);/*repeat(auto-fill, minmax(250px, 1fr));*/
     grid-gap: 20px;
     max-width: 1400px; /* Limiter la largeur pour une meilleure lisibilité */
+    max-height: calc(92vh - 80px);
     margin: 0 auto; /* Centrer horizontalement avec margin:auto */
     padding: 20px;
+    overflow: auto;
 }
 
 .projet {
@@ -28,3 +30,10 @@ section#Projet #projet{
     max-width: 250px;
     max-height: 250px;
 }
+
+@media (max-width: 907px){
+    .projet-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
