@@ -4,9 +4,10 @@
 
 #footer_section .content
 {
-    margin-top: clamp(90px, 6vw, 110px);
-    margin-bottom: calc(clamp(90px, 6vw, 110px) * 0.75);
+    max-height: calc(60vh - 80px);
     gap: 80px;
+    padding:1%;
+    background-color: aliceblue;
 }
 
 #footer_section .footer_content
