@@ -1,7 +1,8 @@
 #contact_section
 {
     background-color: var(--white);
-    max-height: calc(45vh - 80px);
+    height: 30%;
+    padding: 8%;
 }
 
 /*
