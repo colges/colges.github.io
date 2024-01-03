@@ -11,7 +11,7 @@ body{
 }
 
 
-section #he, #Home, #About ,#Projet, #Competence ,#Contact{
+section #he, #Home, #About ,#Projet, #Competence ,#contact_section{
    /* display: flex; */
    /* z-index: 0; */
     height: calc(100vh - 80px);
