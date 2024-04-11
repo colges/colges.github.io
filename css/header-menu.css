@@ -1,0 +1,133 @@
+/* Theming */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
+
+
+
+
+
+/* Header */
+.header{
+    z-index: 1;
+    background-color: var(--darkred);
+    box-shadow: 1px 1px 5px 0px var(--red);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+/* Logo */
+.logo{
+    display: inline-block;
+    color: var(--white);
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+
+/* Nav menu */
+.nav{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--red);
+    overflow: hidden;
+
+}
+.menu a{
+    display: block;
+    padding: 30px;
+    text-align: center;
+    color: var(--white);
+
+}
+.menu a:hover{
+    background-color: var(--red);
+}
+.nav{
+    max-height: 0;
+    padding-top: 0;
+    transition: max-height .6s ease-out;
+}
+
+
+
+
+/* Menu Icon */
+.menu_icon{
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}/* Style label tag */
+
+.menu_medium_line{
+    background: var(--white);
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+
+} /* Style span tag */
+
+.menu_medium_line::before,
+.menu_medium_line::after{
+    background: var(--white);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.menu_medium_line::before{
+    top: 5px;
+}
+.menu_medium_line::after{
+    top: -5px;
+}
+
+.side-menu {
+    display: none;
+} /* Hide checkbox */
+
+
+/* Toggle menu icon */
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+
+
+.side-menu:checked ~ .menu_icon .menu_medium_line {
+    background: transparent;
+}
+.side-menu:checked ~ .menu_icon .menu_medium_line::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+.side-menu:checked ~ .menu_icon .menu_medium_line::after {
+    transform: rotate(45deg);
+    top:0;
+}
+
+
+@media (min-width: 907px) {
+    .nav{
+        max-height: none;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+
+    .menu li{
+        float: left;
+    }
+
+    .menu a:hover{
+        background-color: transparent;
+        color: var(--red);
+
+    }
+
+    .menu_icon{
+        display: none;
+    }
+}

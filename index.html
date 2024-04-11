@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>PortFolio Ange Colsenet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/header-menu.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/presentation.css">
+
+    <link rel="stylesheet" href="css/projet.css">
+    <link rel="stylesheet" href="css/competence.css">
+
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/skill.css">
+
+   <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script  src="js/home%20typing%20effect.js"></script> -->
+
+
+
+</head>
+
+
+<body onload="skills_events()">
+
+<header class="header">
+    <!-- Logo -->
+    <a  class="logo">ㅤ</a>
+    <!-- Hamburger icon -->
+    <input class="side-menu" type="checkbox" id="side-menu"/>
+    <label class="menu_icon" for="side-menu"><span class="menu_medium_line"></span></label>
+    <!-- Menu -->
+    <nav class="nav">
+        <ul class="menu">
+            <li><a href="#Home">Accueil </a></li>
+            <li><a href="#About">Présentation</a> </li>
+            <li><a href="#Projet">Projet</a></li>
+            <li><a href="#Competence">Compétence</a></li>
+            <li><a href="#Experience">Expérience</a></li>
+
+            <!-- a mettre en bouton -->
+            <li><a href="#Contacte">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <section id="Home">
+        <canvas width=100% height=calc(100vh-80px)> </canvas>
+        <span>ANGE COLSENET<br>&Eacute;TUDIANT A L'ISEN</span>
+
+       <script src="js/background.js"></script>
+    </section>
+
+<!--
+<section id="About">
+    <div id="presentation">Présentation</div>
+
+    <img src="images/moi1.jpg" alt="photo_profile"/>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+</section>
+
+-->
+
+<div class="presentation-container" id="About">
+    <div class="text-container">
+        <h2>A propos de moi </h2>
+        <p>
+            Je m'appelle Ange Colsenet, étudiant de 19 ans en deuxième année de cycle préparatoire à l'Institut Supérieur de l'Électronique et du Numérique (ISEN) de Rennes.
+            Je porte un fort intérêt pour l'électronique et l'informatique, j'aime consacrer mon temps libre à la réalisation de projets dans ces domaines.
+        </p>
+        <br>
+        <p>
+            Actuellement à la recherche d'une alternance en électronique embarquée pour la rentrée de septembre 2024,
+            mon objectif est de participer à des projets stimulants tant sur le plan technique que sur le plan humain pour pouvoir continuer à élargir mes compétences et mes connaissances dans ces domaines qui m'enthousiasment.
+        </p>
+
+    </div>
+    <div class="image-container">
+       <a href="pdf/Colsenet_Ange_CV_2024.pdf" target="_blank"> <img src="ACphoto.jpg" id ="image-profile" alt="Image de présentation"> </a>
+    </div>
+</div>
+
+
+    <section id="Projet">
+        <div id="titre">Projets réalisés</div>
+
+        <div id="filters">
+            <button onclick="filterProjects('all')">Tout</button>
+            <button onclick="filterProjects('informatique')">Informatiques</button>
+            <button onclick="filterProjects('electronique')">Électroniques</button>
+            <button onclick="filterProjects('photo')">Photos</button>
+        </div>
+
+        <div class="project-container" id="project-container"></div>
+
+        <div id="project-details">
+            <div id="project-details-content">
+                <button id="close-button" onclick="closeProjectDetails()">x</button>
+
+                <div id="project-details-left">
+                    <img id="img_selected"></img>
+                    <ul id="list_img"></ul>
+                </div>
+                <div id="project-details-right">
+                    <h2 id="project-title"></h2>
+                    <p id="project-description"></p>
+                    <p id="project-info"></p>
+                    <p id="project-resources"></p>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="js/projet.js" ></script>
+    </section>
+
+
+<section class="section" id="skills_section">
+    <span class="section_title">Mes compétences</span>
+    <div id="Competence">
+        <br>
+      <!--  <button onclick="skills_events();">Tout</button> -->
+        <div class="content leaning" >
+            <div class="skills_content">
+                <div class="box"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/skill.js" ></script>
+</section>
+
+
+    <section id="Experience">
+
+        <!-- partial:index.partial.html -->
+        <div class="ag-timeline_tagline">Mon parcours</div>
+
+            <section class="ag-section">
+
+                <div class="ag-format-container">
+                    <div class="js-timeline ag-timeline">
+                        <div class="js-timeline_line ag-timeline_line">
+                            <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+                        </div>
+                        <div class="ag-timeline_list" id="ag-timeline_list">
+                            <div class="js-timeline_item ag-timeline_item">
+
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2023</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Prépa intégrée ISEN Rennes</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <a href="https://www.isen.fr" target="_blank">   <img src="images/experience/isen-rennes.png" class="ag-timeline-card_img" width="640" height="360" /> </a>
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Prépa intégrée ISEN Rennes</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Cycle préparatoire à l'école d'ingénieurs ISEN Yncréa à Rennes dans la filière "Informatique et Réseaux".
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Bénevole ADMR</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2022</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <a href="https://www.admr.org" target="_blank"> <img src="images/experience/ADMR.jpg" class="ag-timeline-card_img" width="640" height="360" alt="" /> </a>
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Season 6</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Bénévole pour l’aide a la personne durant un stage
+                                                associatif, préparation et livraison de repas à domicile.
+                                                <a href="pdf/rapport_Colsenet_Ange.pdf" target="_blank" id="lien"> Rapport de stage</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2022</div>
+                                    </div>
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Préparateur commande à Brocéliande</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <a href="https://www.broceliande.fr" target="_blank"> <img src="images/experience/broceliande.jpg" class="ag-timeline-card_img" width="640" height="360" alt="" /> </a>
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Season 55</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Chargé de l’emballage des commande, du chargement
+                                                et déchargement de la marchandise (35)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+                            <div class="js-timeline_item ag-timeline_item">
+                                <div class="ag-timeline-card_box">
+                                    <div class="ag-timeline-card_meta-box">
+                                        <div class="ag-timeline-card_meta">Baccalauréat scientifique</div>
+                                    </div>
+                                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                        <div class="ag-timeline-card_point">2021</div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_item">
+                                    <div class="ag-timeline-card_inner">
+                                        <div class="ag-timeline-card_img-box">
+                                            <a href="https://www.lycee-jeanpaul2.fr" target="_blank"> <img src="images/experience/jp2.png" class="ag-timeline-card_img" width="640" height="360" alt="" /> </a>
+                                        </div>
+                                        <div class="ag-timeline-card_info">
+                                            <div class="ag-timeline-card_title">Season 4</div>
+                                            <div class="ag-timeline-card_desc">
+                                                Obtention du baccalauréat scientifique option SVT et spécialité Math et Physique avec mention Assez Bien obtenu au lycée Jean Paul II de Saint-Grégoire (35).
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ag-timeline-card_arrow"></div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        <!-- partial -->
+        <!-- <script  src="js/experience_show.js"></script> -->
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script  src="js/experience.js"></script>
+
+
+    </section>
+    <a id="contact"></a>
+    <section class="section" id="contact_section">
+        <div class="content leaning">
+          <!--  <span class="section_title">How to contact me?</span> -->
+            <div class="titre">Me contacter</div>
+            <div class="contact_content">
+                <div class="social_line">
+                    <a class="social_link" href="https://www.linkedin.com/in/ange-colsenet-6b33272b9" target="_blank" style="--size: 119.13px;">
+                        <img src="images/contact/Linkedin.svg" alt="linkedin" width="50px" height="50px"/>
+                        <div class="social_text">
+                            <span>in/ange-colsenet</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="social_line">
+                    <a class="social_link" href="https://github.com/colges" target="_blank" style="--size: 90.65px;">
+                        <img src="images/contact/GitHub.svg" alt="github" width="50px" height="50px"/>
+                        <div class="social_text">
+                            <span>colges</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="social_line">
+                    <div class="social_link" style="--size: 202.84px;">
+                        <a href="mailto: ange.colsenet@gmail.com" target="_blank">
+                            <img src="images/contact/email.webp" alt="mail" width="50px" height="50px"/>
+                        </a>
+                        <div class="social_text">
+                            <span>ange.colsenet@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+
+<footer class="section" id="footer_section">
+    <div id="Contacte">
+        <div class="content">
+            <div class="footer_content">
+               <!-- <a class="footer_licence" href="a remplir" target="_blank"> -->
+                    <span> 2024 Ange Colsenet</span>
+                   <!-- <img src="ressource/lisence.svg" alt="license" width="20px" height="20px"/>
+                    <span>MIT license</span> -->
+             <!--   </a>
+                <a class="" href="a mettre" target="_blank">
+                   <span>répertoir disponible sur GitHub</span>
+                </a>  -->
+            </div>
+            <div class="footer_content">
+                <p>
+                    Crée en utilisant seulement de l'HTML,CSS et JavaScript,  Merci de votre temps pris a regardé se site, en espérant qu'il vous est plus.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
