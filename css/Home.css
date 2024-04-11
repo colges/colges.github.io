@@ -15,5 +15,5 @@ section#Home span{
     position: absolute;
     text-align: center;
     font-size: 28pt;
-    color: var(--lightcoral);
+    color: /*var(--lightcoral)*/ white;
 }
