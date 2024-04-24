@@ -79,41 +79,6 @@
         "rlink": ""
     },
     {
-        "title": "Concert lycée JP2",
-        "description": "Photo réalisé a l'occasion du concert du lycée jean paul II ",
-        "category": "Photo",
-        "image": "images/photo/concert_jp2/1.jpg",
-        "photos": [
-            "images/photo/concert_jp2/1.jpg",
-            "images/photo/concert_jp2/2.jpg",
-            "images/photo/concert_jp2/3.jpg",
-            "images/photo/concert_jp2/4.jpg",
-            "images/photo/concert_jp2/5.jpg",
-            "images/photo/concert_jp2/6.jpg"
-        ],
-        "date": "2020",
-        "software": "",
-        "plink": "",
-        "rlink": ""
-    },
-    {
-    "title": "Cours vetathlon La Chapelle-Chaussée",
-    "description": "Photo réalisé a l'occasion du vethatlon de la Chapelle Chaussé en tant que reporter photographe de l'événement ",
-    "category": "Photo",
-    "image":  "images/photo/cours_chappel/11.jpg",
-    "photos": [
-        "images/photo/cours_chappel/11.jpg",
-        "images/photo/cours_chappel/1.jpg",
-        "images/photo/cours_chappel/2.jpg",
-        "images/photo/cours_chappel/3.jpg",
-        "images/photo/cours_chappel/4.jpg"
-    ],
-    "date": "2020",
-    "software": "",
-    "plink": "",
-    "rlink": ""
-    },
-    {
         "title": "Court métrage sur thème de l'aventure ",
         "description": "Court métrage réalisé en première années d'étude sur le thème de l'aventure ",
         "category": "Tout",
