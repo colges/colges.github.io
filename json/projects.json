@@ -1,0 +1,158 @@
+[
+    {
+        "title": "jeu de plateformes",
+        "description": "Projet réalisé lors de notre deuxième année du cycle CIR à l'ISEN Rennes. Le jeu reprend les mécanismes du jeu mobile “Doodle jump”, développé en C++ avec la bibliothèque graphique Qt.    ",
+        "category": "Informatique",
+        "image": "images/informatique/platformes/2.png",
+        "photos": [
+            "images/informatique/platformes/2.png",
+            "images/informatique/platformes/1.png",
+            "images/informatique/platformes/jeu.gif"
+        ],
+        "date": "2022",
+        "software": "C++, QT",
+        "plink": "",
+        "rlink": ""
+    },
+    {
+        "title": "Jeu de la vie ",
+        "description": "Projet réalisé lors de la première année du cycle CIR à l'ISEN Rennes. Le programme reproduis les règle du jeux de la vie de John Horton Conway et le simule dans l'ide ",
+        "category": "Informatique",
+        "image": "images/informatique/jeux_de_la_vie/jeux_de_la_vie.gif",
+        "photos": [
+            "images/informatique/jeux_de_la_vie/jeux_de_la_vie.gif"
+        ],
+        "date": "2022",
+        "software": "langage C",
+        "plink": "",
+        "rlink": ""
+    },
+    {
+        "title": "Gallerie Photo ",
+        "description": "Projet réalisé lors de notre deuxième année du cycle CIR de l'ISEN Rennes. Le but de ce projet était de créer une application Web de galerie photo",
+        "category": "Informatique",
+        "image": "images/informatique/Gallerie_photo/photo2.png",
+        "photos": [
+            "images/informatique/Gallerie_photo/photo2.png",
+            "images/informatique/Gallerie_photo/photo1.png"
+        ],
+        "date": "2022",
+        "software": "langage C",
+        "plink": "",
+        "rlink": ""
+    },
+    {
+        "title": "Générateur de fréquences",
+        "description": "Générateur de fréquence monté sur PCB pouvant généré signal triangulaire ou sinusoïdal. Alimenter en 12V, peut généré une fréquence entre 1 Hz et 1 Mhz",
+        "category": "electronique",
+        "image": "images/electronique/G_frec.png",
+        "photos": [
+            "images/electronique/G_frec.png"
+        ],
+        "date": "2021",
+        "software": "",
+        "plink": "",
+        "rlink": ""
+    },
+    {
+        "title": "Mini radio FM",
+        "description": "mini Radio fm monté sur PCB de dimension 5,5 x 2,7 cm alimenté par deux batterie de 1,5V. Sortie sur le port jack",
+        "category": "electronique",
+        "image": "images/electronique/radio fm.png",
+        "photos": [
+            "images/electronique/radio fm.png"
+        ],
+        "date": "2022",
+        "software": "",
+        "plink": "",
+        "rlink": ""
+    },
+    {
+        "title": "Coeur led clignotant",
+        "description": "montage pcb de led en serie soudé, le clignotement des led est controlé par un potentiomettre",
+        "category": "electronique",
+        "image": "images/electronique/coeur.png",
+        "photos": [
+            "images/electronique/coeur.png"
+        ],
+        "date": "2022",
+        "software": "",
+        "plink": "",
+        "rlink": ""
+    },
+    {
+        "title": "Cube led",
+        "description": "Cube led 8x8x8 entièrement souder a la main, dispose de différente animation. Les animation peuvent également être programmé.",
+        "category": "electronique",
+        "image": "images/electronique/cube_led.jpg",
+        "photos": [
+            "images/electronique/cube_led.jpg"
+        ],
+        "date": "2022",
+        "software": "",
+        "plink": "",
+        "rlink": ""
+    },
+    {
+        "title": "Concert lycée JP2",
+        "description": "Photo réalisé a l'occasion du concert du lycée jean paul II ",
+        "category": "Photo",
+        "image": "images/photo/concert_jp2/1.jpg",
+        "photos": [
+            "images/photo/concert_jp2/1.jpg",
+            "images/photo/concert_jp2/2.jpg",
+            "images/photo/concert_jp2/3.jpg",
+            "images/photo/concert_jp2/4.jpg",
+            "images/photo/concert_jp2/5.jpg",
+            "images/photo/concert_jp2/6.jpg"
+        ],
+        "date": "2020",
+        "software": "",
+        "plink": "",
+        "rlink": ""
+    },
+    {
+    "title": "Cours vetathlon La Chapelle-Chaussée",
+    "description": "Photo réalisé a l'occasion du vethatlon de la Chapelle Chaussé en tant que reporter photographe de l'événement ",
+    "category": "Photo",
+    "image":  "images/photo/cours_chappel/11.jpg",
+    "photos": [
+        "images/photo/cours_chappel/11.jpg",
+        "images/photo/cours_chappel/1.jpg",
+        "images/photo/cours_chappel/2.jpg",
+        "images/photo/cours_chappel/3.jpg",
+        "images/photo/cours_chappel/4.jpg"
+    ],
+    "date": "2020",
+    "software": "",
+    "plink": "",
+    "rlink": ""
+    },
+    {
+        "title": "Court métrage sur thème de l'aventure ",
+        "description": "Court métrage réalisé en première années d'étude sur le thème de l'aventure ",
+        "category": "Tout",
+        "image":  "images/Tout/court-metrage/intro.gif",
+        "photos": [
+            "images/Tout/court-metrage/intro.gif"
+        ],
+        "date": "2022",
+        "software": "",
+        "plink": "",
+        "rlink": ""
+    },
+    {
+        "title": "Cartographie des controverses ",
+        "description": "Cartographie portant sur les jeux vidéo réalisé sous la forme d'un site internet afin de mettre en avant les différent application des jeux vidéo a notre époque ",
+        "category": "Tout",
+        "image":  "images/Tout/cartographie/carto1.png",
+        "photos": [
+            "images/Tout/cartographie/carto1.png",
+            "images/Tout/cartographie/carto2.png"
+        ],
+        "date": "2022",
+        "software": "",
+        "plink": "",
+        "rlink": ""
+    }
+]
