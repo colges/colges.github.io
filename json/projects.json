@@ -16,7 +16,7 @@
     },
     {
         "title": "Jeu de la vie ",
-        "description": "Projet réalisé lors de la première année du cycle CIR à l'ISEN Rennes. Le programme reproduis les règle du jeux de la vie de John Horton Conway et le simule dans l'ide ",
+        "description": "Projet réalisé lors de la première année du cycle CIR à l'ISEN Rennes. Le programme reproduit les règles du jeu de la vie de John Horton Conway et le simule dans l'IDE ",
         "category": "Informatique",
         "image": "images/informatique/jeux_de_la_vie/jeux_de_la_vie.gif",
         "photos": [
@@ -28,7 +28,7 @@
         "rlink": ""
     },
     {
-        "title": "Gallerie Photo ",
+        "title": "Galerie Photo ",
         "description": "Projet réalisé lors de notre deuxième année du cycle CIR de l'ISEN Rennes. Le but de ce projet était de créer une application Web de galerie photo",
         "category": "Informatique",
         "image": "images/informatique/Gallerie_photo/photo2.png",
@@ -43,7 +43,7 @@
     },
     {
         "title": "Générateur de fréquences",
-        "description": "Générateur de fréquence monté sur PCB pouvant généré signal triangulaire ou sinusoïdal. Alimenter en 12V, peut généré une fréquence entre 1 Hz et 1 Mhz",
+        "description": "Générateur de fréquence monté sur PCB pouvant généré un signal triangulaire ou sinusoïdal. Alimenté en 12V, il peut générer une fréquence entre 1 Hz et 1 Mhz",
         "category": "electronique",
         "image": "images/electronique/G_frec.png",
         "photos": [
@@ -56,7 +56,7 @@
     },
     {
         "title": "Mini radio FM",
-        "description": "mini Radio fm monté sur PCB de dimension 5,5 x 2,7 cm alimenté par deux batterie de 1,5V. Sortie sur le port jack",
+        "description": "mini Radio fm montée sur PCB de dimension 5,5 x 2,7 cm alimentée par deux batteries de 1,5V. Sortie sur le port jack",
         "category": "electronique",
         "image": "images/electronique/radio fm.png",
         "photos": [
@@ -69,7 +69,7 @@
     },
     {
         "title": "Coeur led clignotant",
-        "description": "montage pcb de led en serie soudé, le clignotement des led est controlé par un potentiomettre",
+        "description": "montage pcb de led en serie soudé, le clignotement des led est controlé par un potentiometre",
         "category": "electronique",
         "image": "images/electronique/coeur.png",
         "photos": [
@@ -82,7 +82,7 @@
     },
     {
         "title": "Cube led",
-        "description": "Cube led 8x8x8 entièrement souder a la main, dispose de différente animation. Les animation peuvent également être programmé.",
+        "description": "Cube led 8x8x8 entièrement soudé a la main, dispose de différentes animations. Les animations peuvent également être programmées.",
         "category": "electronique",
         "image": "images/electronique/cube_led.jpg",
         "photos": [
@@ -108,7 +108,7 @@
     },
     {
         "title": "Cartographie des controverses ",
-        "description": "Cartographie portant sur les jeux vidéo réalisé sous la forme d'un site internet afin de mettre en avant les différent application des jeux vidéo a notre époque ",
+        "description": "Cartographie portant sur les jeux vidéo réalisée sous la forme d'un site internet afin de mettre en avant les différentes application des jeux vidéo à notre époque ",
         "category": "Tout",
         "image":  "images/Tout/cartographie/carto1.png",
         "photos": [
