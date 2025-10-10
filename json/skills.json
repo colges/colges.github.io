@@ -1,174 +1,57 @@
 {
-	"skills_categories":
-	[
+	"skills_categories": [
 		{
-			"name" : "Developement logiciel",
-			"skills" :
-			[
-				{
-					"name": "C",
-					"logo": "images/skill/logiciel/C.svg",
-					"link": "https://en.wikipedia.org/wiki/C_(programming_language)"
-				},
-				{
-					"name": "C++",
-					"logo": "images/skill/logiciel/Cpp.svg",
-					"link": "https://en.wikipedia.org/wiki/C%2B%2B"
-				},
-				{
-				"name": "Arduino",
-				"logo": "images/skill/logiciel/arduino.svg",
-				"link": "https://www.arduino.cc/"
-				},
-				{
-					"name": "Python",
-					"logo": "images/skill/logiciel/Python.svg",
-					"link": "https://www.python.org/"
-				},
-				{
-					"name": "CMake",
-					"logo": "images/skill/logiciel/CMake.svg",
-					"link": "https://cmake.org/"
-				},
-				{
-					"name": "Git",
-					"logo": "images/skill/logiciel/Git.svg",
-					"link": "https://git-scm.com/"
-				},
-				{
-					"name": "Qt",
-					"logo": "images/skill/logiciel/Qt.svg",
-					"link": "https://www.qt.io/"
-				}
+			"name": "Software Development",
+			"skills": [
+				{"name": "C", "logo": "images/skill/logiciel/C.svg", "link": "https://en.wikipedia.org/wiki/C_(programming_language)"},
+				{"name": "C++", "logo": "images/skill/logiciel/Cpp.svg", "link": "https://en.wikipedia.org/wiki/C%2B%2B"},
+				{"name": "C#", "logo": "images/skill/logiciel/C_sharp.svg", "link": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"},
+				{"name": "ESP-IDF", "logo": "images/skill/logiciel/espressif.svg", "link": "https://www.espressif.com/en/products/sdks/esp-idf"},
+				{"name": "CubeIDE", "logo": "images/skill/logiciel/CubeIDE.svg", "link": "https://www.st.com/en/development-tools/stm32cubeide.html"},
+				{"name": "Python", "logo": "images/skill/logiciel/Python.svg", "link": "https://www.python.org/"},
+				{"name": "Java", "logo": "images/skill/logiciel/Java_Logo.svg", "link": "https://www.java.com/"},
+				{"name": "CMake", "logo": "images/skill/logiciel/CMake.svg", "link": "https://cmake.org/"},
+				{"name": "Qt", "logo": "images/skill/logiciel/Qt.svg", "link": "https://www.qt.io/"}
 			]
 		},
 		{
-			"name" : "Back-end Web",
-			"skills" :
-			[
-				{
-					"name": "Python",
-					"logo": "images/skill/backend/Python.svg",
-					"link": "https://www.python.org/"
-				},
-				{
-					"name": "JavaScript",
-					"logo": "images/skill/backend/JavaScript.svg",
-					"link": "https://en.wikipedia.org/wiki/JavaScript"
-				},
-				{
-					"name": "Git",
-					"logo": "images/skill/backend/Git.svg",
-					"link": "https://git-scm.com/"
-				},
-				{
-					"name": "WampServer",
-					"logo": "images/skill/backend/WampServer.svg",
-					"link": "https://www.wampserver.com"
-				},
-				{
-					"name": "PHP",
-					"logo": "images/skill/backend/PHP.svg",
-					"link": "https://www.php.net"
-				}
+			"name": "Back-end Web",
+			"skills": [
+				{"name": "Python", "logo": "images/skill/backend/Python.svg", "link": "https://www.python.org/"},
+				{"name": "JavaScript", "logo": "images/skill/backend/JavaScript.svg", "link": "https://en.wikipedia.org/wiki/JavaScript"},
+				{"name": "WampServer", "logo": "images/skill/backend/WampServer.svg", "link": "https://www.wampserver.com"},
+				{"name": "PHP", "logo": "images/skill/backend/PHP.svg", "link": "https://www.php.net"}
 			]
 		},
 		{
-			"name" : "Front-end Web",
-			"skills" :
-			[
-				{
-					"name": "HTML",
-					"logo": "images/skill/frontend/Html.svg",
-					"link": "https://en.wikipedia.org/wiki/HTML"
-				},
-				{
-					"name": "CSS",
-					"logo": "images/skill/frontend/Css.svg",
-					"link": "https://en.wikipedia.org/wiki/CSS"
-				},
-				{
-					"name": "JavaScript",
-					"logo": "images/skill/frontend/JavaScript.svg",
-					"link": "https://en.wikipedia.org/wiki/JavaScript"
-				},
-				{
-					"name": "jQuery",
-					"logo": "images/skill/frontend/JQuery.svg",
-					"link": "https://jquery.com/"
-				},
-				{
-					"name": "Bootstrap",
-					"logo": "images/skill/frontend/Bootstrap.svg",
-					"link": "https://getbootstrap.com/"
-				},
-				{
-					"name": "Git",
-					"logo": "images/skill/frontend/Git.svg",
-					"link": "https://git-scm.com/"
-				}
+			"name": "Front-end Web",
+			"skills": [
+				{"name": "HTML", "logo": "images/skill/frontend/Html.svg", "link": "https://en.wikipedia.org/wiki/HTML"},
+				{"name": "CSS", "logo": "images/skill/frontend/Css.svg", "link": "https://en.wikipedia.org/wiki/CSS"},
+				{"name": "JavaScript", "logo": "images/skill/frontend/JavaScript.svg", "link": "https://en.wikipedia.org/wiki/JavaScript"},
+				{"name": "jQuery", "logo": "images/skill/frontend/JQuery.svg", "link": "https://jquery.com/"},
+				{"name": "Bootstrap", "logo": "images/skill/frontend/Bootstrap.svg", "link": "https://getbootstrap.com/"}
 			]
 		},
 		{
-			"name" : "Base de donnée",
-			"skills" :
-			[
-				{
-					"name": "SQL",
-					"logo": "images/skill/base_donne/Sql.svg",
-					"link": "https://sql.sh"
-				},
-				{
-					"name": "DBeaver",
-					"logo": "images/skill/base_donne/DBeaver.svg",
-					"link": "https://dbeaver.io"
-				},
-				{
-					"name": "JMerise",
-					"logo": "images/skill/base_donne/JMerise.png",
-					"link": "https://www.jfreesoft.com/JMerise/"
-				},{
-				"name": "MariaDB",
-				"logo": "images/skill/base_donne/mariadb.png",
-				"link": "https://mariadb.org"
-			}
+			"name": "Database",
+			"skills": [
+				{"name": "SQL", "logo": "images/skill/base_donne/Sql.svg", "link": "https://sql.sh"},
+				{"name": "DBeaver", "logo": "images/skill/base_donne/DBeaver.svg", "link": "https://dbeaver.io"},
+				{"name": "JMerise", "logo": "images/skill/base_donne/JMerise.png", "link": "https://www.jfreesoft.com/JMerise/"},
+				{"name": "MariaDB", "logo": "images/skill/base_donne/mariadb.png", "link": "https://mariadb.org"}
 			]
-		},{
-		"name" : "Design",
-		"skills" :
-		[
-			{
-				"name": "Photoshop",
-				"logo": "images/skill/design/Photoshop.svg",
-				"link": "https://www.adobe.com/products/photoshop.html"
-			},
-			{
-				"name": "SolidWorks",
-				"logo": "images/skill/design/SolidWorks.webp",
-				"link": "https://www.solidworks.com/"
-			},
-			{
-				"name": "Blender",
-				"logo": "images/skill/design/Blender.svg",
-				"link": "https://www.blender.org/"
-			},
-			{
-				"name": "Proteus",
-				"logo": "images/skill/design/proteus.png",
-				"link": "https://fr.wikipedia.org/wiki/Proteus_(électronique)"
-			},
-			{
-				"name": "Logisim",
-				"logo": "images/skill/design/logisim.svg",
-				"link": "https://fr.wikipedia.org/wiki/Logisim"
-			},
-			{
-				"name": "Latex",
-				"logo": "images/skill/design/latex.svg",
-				"link": "https://www.latex-project.org"
-			}
-
-		]
-	}
+		},
+		{
+			"name": "Design",
+			"skills": [
+				{"name": "Photoshop", "logo": "images/skill/design/Photoshop.svg", "link": "https://www.adobe.com/products/photoshop.html"},
+				{"name": "SolidWorks", "logo": "images/skill/design/SolidWorks.webp", "link": "https://www.solidworks.com/"},
+				{"name": "Blender", "logo": "images/skill/design/Blender.svg", "link": "https://www.blender.org/"},
+				{"name": "Proteus", "logo": "images/skill/design/proteus.png", "link": "https://en.wikipedia.org/wiki/Proteus_(electronic)"},
+				{"name": "Logisim", "logo": "images/skill/design/logisim.svg", "link": "https://en.wikipedia.org/wiki/Logisim"},
+				{"name": "LaTeX", "logo": "images/skill/design/latex.svg", "link": "https://www.latex-project.org"}
+			]
+		}
 	]
 }
