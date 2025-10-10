@@ -104,11 +104,13 @@ function resize() {
 
     scale = window.devicePixelRatio || 1;
 
-    width = window.innerWidth * scale;
-    height = window.innerHeight * scale;
+    // Use canvas client size to match CSS layout (full width, viewport height minus header)
+    const rect = canvas.getBoundingClientRect();
+    width = Math.floor(rect.width * scale);
+    height = Math.floor(rect.height * scale);
 
-    canvas.width = width;
-    canvas.height = height;
+    if (canvas.width !== width) canvas.width = width;
+    if (canvas.height !== height) canvas.height = height;
 
     stars.forEach( placeStar );
 
