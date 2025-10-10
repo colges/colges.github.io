@@ -60,7 +60,6 @@ element.style : not{
 #contact_section .social_link
 {
     display: flex;
-    align-items: center;
     justify-content: center;
     padding: 25px 10px 25px 25px;
     border-radius: 20px;
@@ -69,14 +68,16 @@ element.style : not{
     gap: 15px;
     text-decoration: none;
     max-height: 100px;
-
- /*   transition: padding 0.5s ease-in-out;*/
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
 }
 
 
-#contact_section .social_link:hover
+#contact_section .social_link:hover,
+#contact_section .social_link:focus-visible
 {
- /*   padding-right: 25px; */
+    transform: translateY(-4px);
+    box-shadow: 0px 14px 30px rgba(28, 28, 51, 0.25);
+    outline: none;
 }
 
 #contact_section .social_link img
@@ -87,17 +88,16 @@ element.style : not{
 #contact_section .social_link .social_text
 {
     overflow: hidden;
+    color : #1d1d1b;
     width: 0px;
-    transition: width 0.5s ;
+    transition: width 0.35s ease;
 }
 
 
-#contact_section .social_link:hover .social_text
+#contact_section .social_link:hover .social_text,
+#contact_section .social_link:focus-visible .social_text
 {
-
-/*    width:auto; var(--size);*/
-
-
+    width: var(--size, 220px);
 }
 
 
@@ -118,5 +118,14 @@ element.style : not{
     #contact_section .social_link:hover .social_text
     {
         width: 0px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce)
+{
+    #contact_section .social_link,
+    #contact_section .social_link .social_text
+    {
+        transition: none;
     }
 }

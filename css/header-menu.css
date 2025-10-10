@@ -7,7 +7,7 @@
 
 /* Header */
 .header{
-    z-index: 1;
+    z-index: 3;
     background-color: var(--darkred);
     box-shadow: 1px 1px 5px 0px var(--red);
     position: sticky;
@@ -41,6 +41,10 @@
 }
 .menu a:hover{
     background-color: var(--red);
+}
+.menu a:focus{
+    outline: 2px solid var(--white);
+    outline-offset: 2px;
 }
 .nav{
     max-height: 0;
@@ -130,4 +134,18 @@
     .menu_icon{
         display: none;
     }
+}
+
+/* Offset de défilement pour compenser la barre de navigation sticky */
+:root{
+    --header-height-offset: 100px;
+}
+
+#Home,
+#About,
+#Projet,
+#Competence,
+#Experience,
+#Contacte{
+    scroll-margin-top: var(--header-height-offset);
 }

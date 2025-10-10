@@ -85,6 +85,14 @@ img {
 
  */
 
+.activity-time{
+  padding : 10px;
+  font-family: 'ESL Legend', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+
 .ag-timeline_item {
   margin: 0 0 50px;
 
@@ -133,10 +141,11 @@ img {
 }
 .ag-timeline-card_point-box {
   display: inline-block;
-  margin: 0 14px 0 -28px;
+  margin: 0 14px 0 -25px;
 }
 .ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
-  margin: 0 -28px 0 14px;
+  margin: 0 -25px 0 14px;
+  align-items: center;
 }
 .ag-timeline-card_point {
   height: 50px;
@@ -153,17 +162,59 @@ img {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  position: relative;
+  transition: transform .25s ease, box-shadow .25s ease, background-color .25s ease, border-color .25s ease;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0);
+  will-change: transform, box-shadow;
 }
 .js-ag-active .ag-timeline-card_point {
   color: #1d1d1b;
   background-color: var(--darkred);
+}
+
+/* Effets d'interaction du point (hover/focus) */
+.ag-timeline-card_point:hover,
+.ag-timeline-card_point:focus-visible {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0,0,0,.25), 0 0 0 6px rgba(255,255,255,.15);
+  outline: none;
+}
+
+/* Onde lumineuse douce */
+.ag-timeline-card_point::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+}
+
+.ag-timeline-card_point:hover::after,
+.ag-timeline-card_point:focus-visible::after {
+  animation: agPulse 1.2s ease-out infinite;
+}
+
+@keyframes agPulse {
+  0% { box-shadow: 0 0 0 0 rgba(255,255,255,.25); }
+  70% { box-shadow: 0 0 0 16px rgba(255,255,255,0); }
+  100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ag-timeline-card_point,
+  .ag-timeline-card_point::after {
+    transition: none;
+    animation: none !important;
+  }
 }
 .ag-timeline-card_meta-box {
   display: inline-block;
 }
 .ag-timeline-card_meta {
   margin: 10px 0 0;
-
+  padding : 5px;
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
@@ -298,9 +349,9 @@ img {
     margin: 0 0 0 8px;
   }
   .ag-timeline-card_point {
-    height: 40px;
+    height: 45px;
     line-height: 40px;
-    width: 40px;
+    width: 45px;
   }
   .ag-timeline-card_item {
     width: auto;

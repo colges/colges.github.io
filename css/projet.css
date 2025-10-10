@@ -119,6 +119,7 @@ button:hover {
 #project-details-right {
     flex: 1;
     margin-left: 20px;
+    overflow: auto;
 }
 
 #project-details img{

@@ -160,11 +160,6 @@
 
 @media screen and (max-width: 930px)
 {
-    #skills_section .section_title
-    {
-        margin-left: 17%;
-    }
-
     #skills_section .box
     {
         display: flex;
