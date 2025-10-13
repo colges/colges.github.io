@@ -1,90 +1,84 @@
 [
     {
-        "title": "Communication UART embarquée",
-        "description": "Projet d’entreprise réalisé chez Cristec consistant à développer et implémenter un protocole de communication UART fiable entre un microcontrôleur ESP32-C3 et un STM32F0. Le cahier des charges imposait une période d’échange de 100 ms, mais une optimisation du code, de la gestion des interruptions et l’utilisation de la DMA (Direct Memory Access) sur les deux microcontrôleurs ont permis d’obtenir une vitesse effective de 6 ms, tout en assurant la vérification de l’intégrité des données via un contrôle CRC.",
-        "category" : "electronique",
+        "title": "Embedded UART Communication",
+        "description": "Company project carried out at Cristec consisting of developing and implementing a reliable UART communication protocol between an ESP32-C3 microcontroller and an STM32F0. The specifications required a 100 ms exchange period, but optimization of the code, interrupt handling, and use of DMA (Direct Memory Access) on both microcontrollers made it possible to achieve an effective speed of 6 ms, while ensuring data integrity verification via CRC control.",
+        "category": "electronics",
         "image": "images/electronique/uart_project.jpg",
-        "photos": [
-
-        ],
+        "photos": [],
         "date": "2025",
         "software": "STM32CubeIDE, ESP-IDF, UART Protocol, C",
         "plink": "",
         "rlink": "https://www.st.com/en/microcontrollers-microprocessors/stm32f0-series.html"
     },
     {
-        "title": "Extension DSN logiciel production",
-        "description": "Projet de modernisation d’un logiciel de production dédié à l’étiquetage industriel. L’objectif était d’adapter le programme pour qu’il puisse récupérer les données de production non seulement depuis la base de données existante, mais aussi depuis une nouvelle base de données introduite par l’entreprise. Le travail a impliqué la mise à jour des chaînes de connexion DSN (Data Source Name), la gestion des compatibilités entre schémas de données, ainsi que des tests de cohérence pour garantir la fiabilité des étiquettes générées.",
-        "category": "Informatique",
+        "title": "Production Software DSN Extension",
+        "description": "Modernization project for an industrial labeling production software. The goal was to adapt the program to retrieve production data not only from the existing database but also from a new one introduced by the company. The work involved updating DSN (Data Source Name) connection strings, handling compatibility between data schemas, and performing consistency tests to ensure the reliability of generated labels.",
+        "category": "Computer_Science",
         "image": "images/informatique/dsn.png",
-        "photos": [
-
-        ],
+        "photos": [],
         "date": "2025",
         "software": "C#, ODBC, SQL Server, Visual Studio",
         "plink": "",
-        "rlink": "https://learn.microsoft.com/fr-fr/sql/odbc/reference/what-is-odbc-dsn"
+        "rlink": "https://learn.microsoft.com/en-us/sql/odbc/reference/what-is-odbc-dsn"
     },
     {
-        "title": "Mise à niveau banc de test",
-        "description": "Projet d’entreprise visant à moderniser un banc de test afin de permettre la validation de nouveaux produits développés par l’entreprise. Le travail a consisté à adapter la logique de test et les interfaces de communication pour intégrer ces nouveaux modèles, tout en mettant à jour le système de gestion des numéros de série afin de prendre en compte un nouveau formatage imposé par le service production. Le projet a également inclus des phases de validation et de tests fonctionnels pour garantir la conformité et la fiabilité du banc modernisé.",
-        "category": "Test et validation industrielle",
+        "title": "Test Bench Upgrade",
+        "description": "Company project aimed at modernizing a test bench to validate new products developed by the company. The work involved adapting test logic and communication interfaces to integrate these new models, while updating the serial number management system to accommodate a new format imposed by the production department. The project also included validation and functional testing phases to ensure the reliability and compliance of the updated test bench.",
+        "category": "Industrial Testing and Validation",
         "image": "images/Tout/banc_test.png",
-        "photos": [
-
-        ],
+        "photos": [],
         "date": "2025",
-        "software": "Python, Interface série",
+        "software": "Python, Serial Interface",
         "plink": "https://github.com/ton_projet_banc_test",
-        "rlink": "https://www.ni.com/fr-fr/shop/labview.html"
+        "rlink": "https://www.ni.com/en-us/shop/labview.html"
     },
     {
-        "title": "jeu de plateformes",
-        "description": "Projet réalisé lors de notre deuxième année du cycle CIR à l'ISEN Rennes. Le jeu reprend les mécanismes du jeu mobile “Doodle jump”, développé en C++ avec la bibliothèque graphique Qt.    ",
-        "category": "Informatique",
+        "title": "Platformer Game",
+        "description": "Project developed during the second year of the CIR cycle at ISEN Rennes. The game is inspired by the mobile game 'Doodle Jump', developed in C++ using the Qt graphics library.",
+        "category": "Computer_Science",
         "image": "images/informatique/platformes/2.png",
         "photos": [
             "images/informatique/platformes/2.png",
             "images/informatique/platformes/1.png",
             "images/informatique/platformes/jeu.gif"
         ],
-        "video_iframe": "<iframe width=\"909\" height=\"511\" src=\"https://www.youtube.com/embed/9_Jdbw5KGIU\" title=\"Projet jeu Qt C++ CIR2 Rennes\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "video_iframe": "<iframe width=\"909\" height=\"511\" src=\"https://www.youtube.com/embed/9_Jdbw5KGIU\" title=\"Qt C++ Game Project CIR2 Rennes\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
         "date": "2022",
-        "software": "C++, QT",
+        "software": "C++, Qt",
         "plink": "",
         "rlink": ""
     },
     {
-        "title": "Jeu de la vie ",
-        "description": "Projet réalisé lors de la première année du cycle CIR à l'ISEN Rennes. Le programme reproduit les règles du jeu de la vie de John Horton Conway et le simule dans l'IDE ",
-        "category": "Informatique",
+        "title": "Game of Life",
+        "description": "Project completed during the first year of the CIR cycle at ISEN Rennes. The program reproduces and simulates John Horton Conway's Game of Life.",
+        "category": "Computer_Science",
         "image": "images/informatique/jeux_de_la_vie/jeux_de_la_vie.gif",
         "photos": [
             "images/informatique/jeux_de_la_vie/jeux_de_la_vie.gif"
         ],
         "date": "2022",
-        "software": "langage C",
+        "software": "C language",
         "plink": "",
         "rlink": ""
     },
     {
-        "title": "Galerie Photo",
-        "description": "Projet réalisé lors de notre deuxième année du cycle CIR de l'ISEN Rennes. Le but de ce projet était de créer une application Web de galerie photo",
-        "category": "Informatique",
+        "title": "Photo Gallery",
+        "description": "Project developed during the second year of the CIR cycle at ISEN Rennes. The goal of this project was to create a web photo gallery application.",
+        "category": "Computer_Science",
         "image": "images/informatique/Gallerie_photo/photo2.png",
         "photos": [
             "images/informatique/Gallerie_photo/photo2.png",
             "images/informatique/Gallerie_photo/photo1.png"
         ],
         "date": "2022",
-        "software": "langage C",
+        "software": "C language",
         "plink": "",
         "rlink": ""
     },
     {
-        "title": "Générateur de fréquences",
-        "description": "Générateur de fréquence monté sur PCB pouvant généré un signal triangulaire ou sinusoïdal. Alimenté en 12V, il peut générer une fréquence entre 1 Hz et 1 Mhz",
-        "category": "electronique",
+        "title": "Frequency Generator",
+        "description": "Frequency generator built on PCB capable of generating a triangular or sinusoidal signal. Powered by 12 V, it can produce frequencies between 1 Hz and 1 MHz.",
+        "category": "electronics",
         "image": "images/electronique/G_frec.png",
         "photos": [
             "images/electronique/G_frec.png"
@@ -95,9 +89,9 @@
         "rlink": ""
     },
     {
-        "title": "Mini radio FM",
-        "description": "mini Radio fm montée sur PCB de dimension 5,5 x 2,7 cm alimentée par deux batteries de 1,5V. Sortie sur le port jack",
-        "category": "electronique",
+        "title": "Mini FM Radio",
+        "description": "Mini FM radio built on a 5.5 × 2.7 cm PCB, powered by two 1.5 V batteries. Output via jack port.",
+        "category": "electronics",
         "image": "images/electronique/radio fm.png",
         "photos": [
             "images/electronique/radio fm.png"
@@ -107,11 +101,10 @@
         "plink": "",
         "rlink": ""
     },
-
     {
-        "title": "Cube led",
-        "description": "Cube led 8x8x8 entièrement soudé a la main, dispose de différentes animations. Les animations peuvent également être programmées.",
-        "category": "electronique",
+        "title": "LED Cube",
+        "description": "8×8×8 LED cube fully hand-soldered, featuring various animations. Custom animations can also be programmed.",
+        "category": "electronics",
         "image": "images/electronique/cube_led.jpg",
         "photos": [
             "images/electronique/cube_led.jpg"
@@ -122,10 +115,10 @@
         "rlink": ""
     },
     {
-        "title": "Court métrage sur thème de l'aventure ",
-        "description": "Court métrage réalisé en première années d'étude sur le thème de l'aventure ",
-        "category": "Tout",
-        "image":  "images/Tout/court-metrage/intro.gif",
+        "title": "Short Film – Adventure Theme",
+        "description": "Short film produced during the first year of studies on the theme of adventure.",
+        "category": "General",
+        "image": "images/Tout/court-metrage/intro.gif",
         "photos": [
             "images/Tout/court-metrage/intro.gif"
         ],
@@ -135,10 +128,10 @@
         "rlink": ""
     },
     {
-        "title": "Cartographie des controverses ",
-        "description": "Cartographie portant sur les jeux vidéo réalisée sous la forme d'un site internet afin de mettre en avant les différentes application des jeux vidéo à notre époque ",
-        "category": "Tout",
-        "image":  "images/Tout/cartographie/carto1.png",
+        "title": "Controversy Mapping",
+        "description": "Mapping project about video games, presented as a website to highlight the various applications of video games in today's world.",
+        "category": "General",
+        "image": "images/Tout/cartographie/carto1.png",
         "photos": [
             "images/Tout/cartographie/carto1.png",
             "images/Tout/cartographie/carto2.png"
