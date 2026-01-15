@@ -52,10 +52,10 @@ function showProjectDetails(project) {
 
     projectTitle.innerText = project.title;
     projectDescription.innerHTML = `<h2>Description :</h2> ${project.description}`;
-    projectInfo.innerHTML = `<h2>Info :</h2> <strong>Date du Projet:</strong> ${project.date}<br>`;
+    projectInfo.innerHTML = `<h2>Info :</h2> <strong>Project date :</strong> ${project.date}<br>`;
 
     if (project.software != "") {
-        projectInfo.innerHTML += `<strong>Logiciel Utilisé:</strong> ${project.software}`;
+        projectInfo.innerHTML += `<strong>Programming language used :</strong> ${project.software}`;
     }
 
    // projectResources.innerHTML = `<strong>Lien vers le Projet:</strong> <a href="${project.projectLink}" target="_blank">${project.projectLink}</a><br><strong>Rapport du Projet:</strong> <a href="${project.reportLink}" target="_blank">${project.reportLink}</a>`;
@@ -214,4 +214,5 @@ function filterProjects(category) {
         projects.filter(project => project.category.toLowerCase() === category);
 
     displayProjects(projectsToShow);
+
 }
